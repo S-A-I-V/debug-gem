@@ -113,10 +113,33 @@ One-line description.
 Every node page has a `## My Notes` section at the bottom. Write your personal experiences, solutions, and context there. This is YOUR knowledge base — the templates are just the starting point.
 
 ## Stats
-- 83 markdown files
-- 4,500+ lines of debugging knowledge
-- 72 technology/concept node pages
-- 12 universal failure patterns
-- 6 meta-patterns
-- 9 domain-specific Maps of Content
-- ~500KB total
+
+<div align="center">
+
+![Files](https://img.shields.io/badge/Markdown_Files-83-blueviolet?style=for-the-badge&logo=obsidian&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines_of_Knowledge-4500+-blue?style=for-the-badge&logo=bookstack&logoColor=white)
+![Size](https://img.shields.io/badge/Total_Size-~500KB-lightgrey?style=for-the-badge&logo=files&logoColor=white)
+
+| Category | Count | Coverage |
+|---|---|---|
+| 🗺️ Maps of Content (MOCs) | 9 | All major domains |
+| 🔵 Technology Node Pages | 72 | Languages · Cloud · DB · Frontend · Security · AI · Web3 · DevOps |
+| 🔴 Universal Failure Patterns | 12 | Every error type ever |
+| 🟣 Meta-Patterns | 6 | Cross-cutting failure archetypes |
+
+```
+Domain Coverage
+─────────────────────────────────────────────────────
+Languages & Runtimes   ████████████████████  11 nodes
+Cloud & Infra          ████████████████      8 nodes
+Databases & Data       ████████████████      8 nodes
+Frontend & UI          ████████████          6 nodes
+DevOps & CI/CD         ████████████          6 nodes
+AI & ML                ████████              5 nodes
+Networking & APIs      ████████              5 nodes
+Security & Auth        ████████              5 nodes
+Blockchain & Web3      ████████              4 nodes
+─────────────────────────────────────────────────────
+```
+
+</div>
