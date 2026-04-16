@@ -1,4 +1,4 @@
-# 🔮 Rosetta — Universal Debugging Knowledge Base
+# 0xDEBUG — Universal Debugging Knowledge Base
 
 > A compressed knowledge system that encodes the taxonomy of software failure. Not a list of errors, but the patterns behind every error ever.
 
