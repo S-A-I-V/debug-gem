@@ -122,10 +122,10 @@ Every node page has a `## My Notes` section at the bottom. Write your personal e
 
 | Category | Count | Coverage |
 |---|---|---|
-| 🗺️ Maps of Content (MOCs) | 9 | All major domains |
-| 🔵 Technology Node Pages | 72 | Languages · Cloud · DB · Frontend · Security · AI · Web3 · DevOps |
-| 🔴 Universal Failure Patterns | 12 | Every error type ever |
-| 🟣 Meta-Patterns | 6 | Cross-cutting failure archetypes |
+| Maps of Content (MOCs) | 9 | All major domains |
+| Technology Node Pages | 72 | Languages · Cloud · DB · Frontend · Security · AI · Web3 · DevOps |
+| Universal Failure Patterns | 12 | Every error type ever |
+| Meta-Patterns | 6 | Cross-cutting failure archetypes |
 
 ```
 Domain Coverage
