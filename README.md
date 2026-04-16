@@ -2,6 +2,8 @@
 
 > A compressed knowledge system that encodes the taxonomy of software failure. Not a list of errors, but the patterns behind every error ever.
 
+![Knowledge Flow](flow.png)
+
 ## What Is This?
 
 **83 interconnected markdown files** encoding how software fails across every domain. Designed for:
