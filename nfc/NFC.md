@@ -62,9 +62,12 @@ Three concurrent processes. If any one breaks, the whole stack fails differently
 - [[Webpack Watch Not Updating]] — save file but browser doesn't change
 - [[Symlink Points to Wrong Build]] — app shows old version after project move
 
-### Backend
+### Backend (Setup)
 - [[JAVA_HOME Not Set Spring Boot]] — `mvn spring-boot:run` can't find Java 21
 - [[Seed.js EntryPoint Mismatch]] — API calls fail because MAF can't reach localhost from Docker
+
+### Backend (Runtime)
+- [[Duplicate Key Processing Queue Kafka]] — Kafka consumer reprocesses event, hits unique constraint on `processing_queue`
 
 ---
 

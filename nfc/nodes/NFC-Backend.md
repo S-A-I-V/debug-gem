@@ -9,6 +9,7 @@ API server supporting two runtimes: Node.js (legacy) with Nodemon, or Java Sprin
 ## Errors Logged
 - [[JAVA_HOME Not Set Spring Boot]]
 - [[Seed.js EntryPoint Mismatch]]
+- [[Duplicate Key Processing Queue Kafka]] — Kafka consumer reprocesses event, hits unique constraint on `processing_queue`
 
 ## Key Facts
 - `seed.js` must use `host.docker.internal:{port}`, not `localhost` (MAF runs in Docker)
