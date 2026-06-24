@@ -1,12 +1,25 @@
-# 0xDEBUG — Universal Debugging Knowledge Base
+```
++-----------------------------------------------------------+
+| ██████╗ ██╗  ██╗██████╗ ███████╗██████╗ ██╗   ██╗ ██████╗ |
+|██╔═████╗╚██╗██╔╝██╔══██╗██╔════╝██╔══██╗██║   ██║██╔════╝ |
+|██║██╔██║ ╚███╔╝ ██║  ██║█████╗  ██████╔╝██║   ██║██║  ███╗|
+|████╔╝██║ ██╔██╗ ██║  ██║██╔══╝  ██╔══██╗██║   ██║██║   ██║|
+|╚██████╔╝██╔╝ ██╗██████╔╝███████╗██████╔╝╚██████╔╝╚██████╔╝|
+| ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═════╝  ╚═════╝  ╚═════╝ |
++-----------------------------------------------------------+
+```
+
+# Universal Debugging Knowledge Base
 
 > A compressed knowledge system that encodes the taxonomy of software failure. Not a list of errors, but the patterns behind every error ever.
 
-![Knowledge Flow](flow.png)
+![Knowledge Flow](debug-gem/images/flow.png)
+
+![Obsidian Graph](debug-gem/images/obsidian-graph.png)
 
 ## What Is This?
 
-**83 interconnected markdown files** encoding how software fails across every domain. Designed for:
+**100 interconnected markdown files** encoding how software fails across every domain. Designed for:
 
 1. **Gemini Gem** — Upload as knowledge files for an AI debugging assistant
 2. **Obsidian Graph** — Visual error pattern exploration with clickable nodes
@@ -29,12 +42,13 @@ debug-gem/
 ├── MOC — Frontend & UI.md           ← React, Next.js, Vue, Angular, CSS, React Native, Flutter
 ├── MOC — DevOps & CI-CD.md          ← Git, GitHub Actions, GitLab CI, npm, Maven, deployment patterns
 │
-└── nodes/                           ← 72 clickable technology & concept pages
+└── nodes/                           ← 90 clickable technology & concept pages
     ├── Python.md, JavaScript.md, TypeScript.md, Java.md, Go.md, Rust.md, ...
     ├── AWS.md, Docker.md, Kubernetes.md, Terraform.md, Linux.md, ...
     ├── PostgreSQL.md, Redis.md, MongoDB.md, Kafka.md, ...
     ├── React.md, Next.js.md, Vue.md, Angular.md, ...
     ├── Solidity.md, Ethereum.md, ...
+    ├── Resource Exhaustion Errors.md, State & Lifecycle Errors.md, ...
     ├── The Boundary Problem.md, The Silent Failure.md, ...
     └── ... (every [[wikilinked]] concept has its own page)
 ```
@@ -118,30 +132,32 @@ Every node page has a `## My Notes` section at the bottom. Write your personal e
 
 <div align="center">
 
-![Files](https://img.shields.io/badge/Markdown_Files-83-blueviolet?style=for-the-badge&logo=obsidian&logoColor=white)
-![Lines](https://img.shields.io/badge/Lines_of_Knowledge-4500+-blue?style=for-the-badge&logo=bookstack&logoColor=white)
-![Size](https://img.shields.io/badge/Total_Size-~500KB-lightgrey?style=for-the-badge&logo=files&logoColor=white)
+![Files](https://img.shields.io/badge/Markdown_Files-100-blueviolet?style=for-the-badge&logo=obsidian&logoColor=white)
+![Lines](https://img.shields.io/badge/Lines_of_Knowledge-6300+-blue?style=for-the-badge&logo=bookstack&logoColor=white)
+![Size](https://img.shields.io/badge/Total_Size-~360KB-lightgrey?style=for-the-badge&logo=files&logoColor=white)
 
 | Category | Count | Coverage |
 |---|---|---|
 | Maps of Content (MOCs) | 9 | All major domains |
-| Technology Node Pages | 72 | Languages · Cloud · DB · Frontend · Security · AI · Web3 · DevOps |
+| Technology Node Pages | 90 | Languages · Cloud · DB · Frontend · Security · AI · Web3 · DevOps |
 | Universal Failure Patterns | 12 | Every error type ever |
 | Meta-Patterns | 6 | Cross-cutting failure archetypes |
 
 ```
 Domain Coverage
-─────────────────────────────────────────────────────
-Languages & Runtimes   ████████████████████  11 nodes
-Cloud & Infra          ████████████████      8 nodes
-Databases & Data       ████████████████      8 nodes
-Frontend & UI          ████████████          6 nodes
-DevOps & CI/CD         ████████████          6 nodes
-AI & ML                ████████              5 nodes
-Networking & APIs      ████████              5 nodes
-Security & Auth        ████████              5 nodes
-Blockchain & Web3      ████████              4 nodes
-─────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────
+Languages & Runtimes   ████████████████████████████████  16 nodes
+Frontend & UI          ████████████████████████          12 nodes
+Error Patterns         ████████████████████████          12 nodes
+DevOps & CI/CD         ██████████████████████            11 nodes
+Cloud & Infra          ██████████████████                 9 nodes
+AI & ML                ██████████████████                 9 nodes
+Networking & APIs      ████████████████                   8 nodes
+Security & Auth        ████████████████                   8 nodes
+Databases & Data       ██████████████                     7 nodes
+Blockchain & Web3      ████████████                       6 nodes
+Meta-Patterns          ████████████                       6 nodes
+──────────────────────────────────────────────────────────────────
 ```
 
 </div>
