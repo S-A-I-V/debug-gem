@@ -13,7 +13,7 @@
 
 > A compressed knowledge system that encodes the taxonomy of software failure. Not a list of errors, but the patterns behind every error ever.
 
-![Knowledge Flow](debug-gem/images/flow.png)
+<!-- ![Knowledge Flow](debug-gem/images/flow.png) -->
 
 ![Obsidian Graph](debug-gem/images/obsidian-graph.png)
 
